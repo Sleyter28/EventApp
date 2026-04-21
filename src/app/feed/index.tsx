@@ -35,13 +35,9 @@ export default function FeedScreen() {
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
+            Welcome to&nbsp;Event App
           </ThemedText>
         </ThemedView>
-
-        <ThemedText type="code" style={styles.code}>
-          get started
-        </ThemedText>
 
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
           <HintRow
